@@ -18,10 +18,14 @@ jobs:
         with:
           node-version: "18"
 
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Prepare Yarn version (4.5.0)
+        run: corepack prepare yarn@4.5.0 --activate
+
       - name: Install dependencies
-        run: |
-          yarn set version berry
-          yarn install
+        run: yarn install
 
       - name: Build Docker images
         run: |
