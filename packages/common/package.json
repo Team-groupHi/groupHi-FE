@@ -1,0 +1,9 @@
+{
+  "name": "@packages/common",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "yarn@4.5.0",
+  "main": "hello.ts",
+  "author": "",
+  "license": "ISC"
+}

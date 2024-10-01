@@ -335,6 +335,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@packages/common@npm:*, @packages/common@workspace:packages/common":
+  version: 0.0.0-use.local
+  resolution: "@packages/common@workspace:packages/common"
+  languageName: unknown
+  linkType: soft
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -3435,6 +3441,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ox@workspace:apps/ox"
   dependencies:
+    "@packages/common": "npm:*"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
@@ -4400,6 +4407,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "temp@workspace:apps/temp"
   dependencies:
+    "@packages/common": "npm:*"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
