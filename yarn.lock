@@ -2344,6 +2344,7 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.2.1"
     eslint-plugin-promise: "npm:^7.1.0"
     eslint-plugin-react: "npm:^7.37.0"
+    husky: "npm:^9.1.6"
     prettier: "npm:^3.3.3"
     prettier-plugin-tailwindcss: "npm:^0.6.8"
     typescript: "npm:^5.6.2"
@@ -2429,6 +2430,15 @@ __metadata:
     agent-base: "npm:^7.0.2"
     debug: "npm:4"
   checksum: 10c0/2490e3acec397abeb88807db52cac59102d5ed758feee6df6112ab3ccd8325e8a1ce8bce6f4b66e5470eca102d31e425ace904242e4fa28dbe0c59c4bafa7b2c
+  languageName: node
+  linkType: hard
+
+"husky@npm:^9.1.6":
+  version: 9.1.6
+  resolution: "husky@npm:9.1.6"
+  bin:
+    husky: bin.js
+  checksum: 10c0/705673db4a247c1febd9c5df5f6a3519106cf0335845027bb50a15fba9b1f542cb2610932ede96fd08008f6d9f49db0f15560509861808b0031cdc0e7c798bac
   languageName: node
   linkType: hard
 
