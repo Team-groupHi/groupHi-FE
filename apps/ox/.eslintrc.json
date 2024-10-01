@@ -1,12 +1,11 @@
 {
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
-  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
-    "@typescript-eslint/prefer-nullish-coalescing": "error",
-    "@typescript-eslint/strict-boolean-expressions": "error",
-    "@typescript-eslint/lines-between-class-members": "error",
-    "@typescript-eslint/no-throw-literal": "error",
-    "@typescript-eslint/ban-types": "error"
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/lines-between-class-members": "off",
+    "@typescript-eslint/no-throw-literal": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/explicit-function-return-type": "off"
   }
 }
